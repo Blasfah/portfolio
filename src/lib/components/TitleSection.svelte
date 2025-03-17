@@ -11,9 +11,6 @@
 </section>
 
 <style>
-  :root {
-    --title-offset: 8px;
-  }
   .title-section {
     width: 100%;
   }
@@ -28,7 +25,7 @@
     margin-top: var(--spacing-medium);
   }
   .content {
-    margin-top: calc(var(--spacing-medium) + var(--title-offset));
+    margin-top: var(--spacing-medium);
   }
 
   @media (max-width: 768px) {
@@ -39,7 +36,7 @@
       margin-top: var(--spacing-small);
     }
     .content {
-      margin-top: calc(var(--spacing-small) + var(--title-offset));
+      margin-top: var(--spacing-small);
     }
   }
 </style>
