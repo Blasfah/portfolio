@@ -1,0 +1,48 @@
+:root {
+  --main-bg-color: hsl(0, 0%, 5%);
+  --main-text-color: hsl(0, 0%, 95%);
+  --subtitle-text-color: hsl(0, 0%, 50%);
+  --main-divider-color: hsl(0, 0%, 20%);
+  --main-color: crimson;
+  --main-highlight-color: crimson;
+
+  --spacing-small: 22px;
+  --spacing-medium: 44px;
+  --spacing-large: 88px;
+  --spacing-mega: 140px;
+  --spacing-ultra: 280px;
+
+  --text-small: 20px;
+  --text-medium: 36px;
+  --text-large: 72px;
+  --text-huge: 96px;
+
+  --text-max-width: 860px;
+}
+
+@font-face {
+  font-family: 'CastleBegale';
+  src: url('/fonts/CastleBegale.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'CastleBegale', sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-size: var(--text-small);
+  line-height: 1;
+  margin: 0 var(--spacing-medium);
+}
+
+::selection {
+  background-color: var(--main-highlight-color);
+  color: var(--main-bg-color);
+}
+
+@media (max-width: 1024px) {
+  body {
+    margin: 0 var(--spacing-small);
+  }
+}
