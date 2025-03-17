@@ -19,7 +19,6 @@
   }
   .title {
     font-size: var(--text-medium);
-    text-transform: uppercase;
   }
   .divider {
     display: block;

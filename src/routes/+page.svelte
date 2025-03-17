@@ -10,7 +10,7 @@
     <h1>Portfolio</h1>
   </nav>
   <div class="header">
-    <TitleSection title="introduction">
+    <TitleSection title="Introduction">
       <h1 class="text">
         Hi! - I'm Wouter Kuyt, a GLR graduate born in 2003 and a front-end
         fanatic who loves building stunning, user-friendly websites.
@@ -97,7 +97,7 @@
     margin-top: var(--spacing-mega);
   }
   .red-text {
-    color: var(--main-highlight-color);
+    color: var(--main-color);
   }
 
   @media (max-width: 1024px) {
@@ -113,6 +113,10 @@
   }
 
   @media (max-width: 768px) {
+    .text {
+      text-align: initial;
+      line-height: 1.5;
+    }
     .journey {
       gap: var(--spacing-medium);
     }

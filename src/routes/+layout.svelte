@@ -9,15 +9,18 @@
 
 <footer class="footer">
   <div class="footer-section">
-    <TitleSection title="find me on">
+    <TitleSection title="Find me on">
       <div class="footer-items">
-        <FancyText text="Github" />
-        <FancyText text="LinkedIn" />
+        <FancyText href="https://github.com/Blasfah" text="Github" />
+        <FancyText
+          href="https://www.linkedin.com/in/wouter-kuyt-b720a2225/"
+          text="LinkedIn"
+        />
       </div>
     </TitleSection>
   </div>
   <div class="footer-section">
-    <TitleSection title="get in touch">
+    <TitleSection title="Get in touch">
       <div class="footer-items">
         <FancyText text="WouterKuyt@<wbr/>gmail.com" />
         <FancyText text="+31 6 33 13 67 86" />

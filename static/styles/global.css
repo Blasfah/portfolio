@@ -3,8 +3,7 @@
   --main-text-color: hsl(0, 0%, 95%);
   --subtitle-text-color: hsl(0, 0%, 50%);
   --main-divider-color: hsl(0, 0%, 20%);
-  --main-color: crimson;
-  --main-highlight-color: crimson;
+  --main-color: hsl(350, 85%, 50%);
 
   --spacing-small: 22px;
   --spacing-medium: 44px;

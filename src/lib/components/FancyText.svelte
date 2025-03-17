@@ -42,6 +42,6 @@
   .reveal {
     position: absolute;
     top: calc(100% + var(--container-gap));
-    color: var(--main-highlight-color);
+    color: var(--main-color);
   }
 </style>
